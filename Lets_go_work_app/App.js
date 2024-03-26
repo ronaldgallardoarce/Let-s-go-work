@@ -17,6 +17,7 @@ export default function App() {
               style={{ width: 70, height: 70 }}
               source={d.image}
               />
+              <Text>Job</Text>
               <Text style={styles.text}>{d.title}</Text>
             </View>
           ))
